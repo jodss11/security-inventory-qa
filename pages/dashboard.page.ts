@@ -12,7 +12,6 @@ export class DashboardPage {
   }
 
   async navigate() {
-    // We will use a demo page but intercept its data!
     await this.page.goto('https://demo.playwright.dev/api-mocking');
   }
 
